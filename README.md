@@ -20,6 +20,11 @@ A modern, fast, and 100% responsive travel website for **Chetan Yadav (SafarSath
   - **Jejuri & Solapur** (Khandoba Temple & cultural tours)
   - **Airport & Railway Station Transfers** (Mumbai CSMIA, Pune Airport, Mumbai CSMT, Pune Station 24/7 pick-up & drop)
 - 🛡️ **Transparent Pricing**: Fixed **₹16 / KM** rate with zero hidden costs.
+- 📋 **Trip Guidelines & Conditions**:
+  - 🚭 Strictly No Smoking or Alcohol consumption inside the car.
+  - 🍽️ Customer provides driver food/meals and clean stay accommodation on outstation/overnight trips.
+  - 🅿️ Toll taxes, parking charges, and entry permits paid by customer at actuals.
+  - 💵 Running expenses settled directly during the trip.
 
 ---
 

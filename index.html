@@ -1603,6 +1603,8 @@
 
             .route-card { height: 350px; }
             .route-card .route-content { padding: 22px; }
+            .conditions-grid { grid-template-columns: 1fr !important; gap: 14px !important; }
+            .conditions-box { padding: 22px 18px !important; }
 
             .booking .container > .booking-grid {
                 grid-template-columns: 1fr;
@@ -2184,6 +2186,61 @@
                     <a href="tel:+919503152702" class="btn btn-primary" style="width:100%; justify-content:center;">
                         <i class="fas fa-phone"></i> Discuss Tour Plan
                     </a>
+                </div>
+            </div>
+
+            <!-- Trip Terms & Customer Conditions Box -->
+            <div class="conditions-box" data-aos="fade-up" style="margin-top: 55px; background: #FFF9F5; border: 2px dashed #FF6B35; border-radius: 20px; padding: 32px 36px; box-shadow: 0 10px 30px rgba(255,107,53,0.06);">
+                <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 22px; flex-wrap: wrap;">
+                    <div style="width: 50px; height: 50px; border-radius: 14px; background: linear-gradient(135deg, #FF6B35, #E5551F); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; box-shadow: 0 6px 20px rgba(255,107,53,0.3); flex-shrink: 0;">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--secondary); font-size: 1.35rem; margin-bottom: 2px;">Trip Conditions & Important Guidelines</h3>
+                        <p style="color: var(--gray); font-size: 0.9rem;">Important rules by Chetan Yadav for all passengers (महत्त्वाच्या अटी व नियम)</p>
+                    </div>
+                </div>
+                
+                <div class="conditions-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                    <div class="condition-item" style="background: white; border-radius: 14px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                        <div style="width: 42px; height: 42px; border-radius: 10px; background: rgba(239,68,68,0.1); color: #EF4444; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fas fa-ban"></i>
+                        </div>
+                        <div>
+                            <strong style="display: block; color: var(--secondary); font-size: 0.98rem; margin-bottom: 4px;">Strictly No Drinking & Smoking in the Car</strong>
+                            <p style="color: var(--gray); font-size: 0.88rem; line-height: 1.55;">Drinking alcohol and smoking inside the vehicle are strictly not allowed. We keep the Ertiga clean, hygienic, and safe for families & all passengers.</p>
+                        </div>
+                    </div>
+
+                    <div class="condition-item" style="background: white; border-radius: 14px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                        <div style="width: 42px; height: 42px; border-radius: 10px; background: rgba(245,158,11,0.1); color: #F59E0B; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <div>
+                            <strong style="display: block; color: var(--secondary); font-size: 0.98rem; margin-bottom: 4px;">Driver Accommodation & Meals</strong>
+                            <p style="color: var(--gray); font-size: 0.88rem; line-height: 1.55;">For outstation, multi-day, or overnight journeys, the customer will provide the driver's meals/food and clean stay accommodation.</p>
+                        </div>
+                    </div>
+
+                    <div class="condition-item" style="background: white; border-radius: 14px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                        <div style="width: 42px; height: 42px; border-radius: 10px; background: rgba(59,130,246,0.1); color: #3B82F6; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fas fa-parking"></i>
+                        </div>
+                        <div>
+                            <strong style="display: block; color: var(--secondary); font-size: 0.98rem; margin-bottom: 4px;">Tolls & Parking at Actuals</strong>
+                            <p style="color: var(--gray); font-size: 0.88rem; line-height: 1.55;">Highway toll plazas, destination parking charges, and entry permits are paid directly by the customer at actual costs as incurred.</p>
+                        </div>
+                    </div>
+
+                    <div class="condition-item" style="background: white; border-radius: 14px; padding: 20px; display: flex; align-items: flex-start; gap: 14px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                        <div style="width: 42px; height: 42px; border-radius: 10px; background: rgba(16,185,129,0.1); color: #10B981; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div>
+                            <strong style="display: block; color: var(--secondary); font-size: 0.98rem; margin-bottom: 4px;">Direct Settlement on Trip</strong>
+                            <p style="color: var(--gray); font-size: 0.88rem; line-height: 1.55;">Billing calculated @ ₹16/km based on actual reading. Incidentals (toll, parking, outstation driver allowances) are paid right away during the journey.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
