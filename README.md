@@ -9,7 +9,7 @@ A modern, fast, and 100% responsive travel website for **Chetan Yadav (SafarSath
 - ⚡ **Zero Dependencies / Blazing Fast**: Pure HTML5, CSS3, and modern vanilla JavaScript with smooth animations.
 - 💬 **Instant WhatsApp Booking**: Form sends formatted trip details directly to Chetan (+91 95031 52702).
 - 📞 **1-Click Call & Floating WhatsApp**: Instant customer contact on any device.
-- 📸 **Instagram Reels & Journey Showcase**: Integrated with Chetan's Instagram profile ([@chetan__7025](https://www.instagram.com/chetan__7025/)).
+- 👤 **Driver Profile & Verification**: Link to Chetan's personal Instagram profile ([@chetan__7025](https://www.instagram.com/chetan__7025/)) for customer checkout and identity verification.
 - 🏞️ **Top Picnic & Tour Spots Driven by Chetan**:
   - **Tamhini Ghat** (Monsoon waterfalls & misty mountain drive)
   - **Konkan Coast** (Ganpatipule, Ratnagiri, Tarkarli, Dapoli)
