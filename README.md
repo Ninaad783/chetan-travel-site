@@ -1,16 +1,25 @@
 # SafarSathi Travels | Chetan Yadav 🚗
 
-A modern, fast, and 100% responsive travel website for **Chetan Yadav (SafarSathi Travels)**, offering comfortable **Maruti Suzuki Ertiga** rides from Pune to Konkan & across Maharashtra at **₹14 / KM**.
+A modern, fast, and 100% responsive travel website for **Chetan Yadav (SafarSathi Travels)**, offering comfortable **Maruti Suzuki Ertiga (7-Seater AC)** rides from Pune to Konkan, Goa, Ghats, Forts, Temples & Outstation across Maharashtra at **₹16 / KM**.
 
 ---
 
 ## 🌟 Key Features
-- 📱 **Mobile-First & Fully Responsive**: Tested to look beautiful on iPhones, Android devices, tablets, and laptops.
-- ⚡ **Zero Dependencies / Blazing Fast**: Pure HTML5, CSS3, and modern vanilla JavaScript with smooth CSS animations.
-- 💬 **Instant WhatsApp Booking**: Visitors can fill the quick booking form (pickup, destination, date, passengers) and send it directly to Chetan on WhatsApp (+91 95031 52702).
-- 📞 **1-Click Call & WhatsApp Float**: Floating action buttons for immediate customer contact.
-- 🏖️ **Konkan Special Routes**: Popular destinations from Pune (Ganpatipule, Ratnagiri, Tarkarli, Dapoli, Alibaug, Harihareshwar) with estimated fares @ ₹14/km.
-- 🛡️ **Transparent Pricing**: Transparent per-kilometer billing with zero hidden charges.
+- 📱 **Mobile-First & Fully Responsive**: Tested to look beautiful on iPhones, Android phones, tablets, and laptops.
+- ⚡ **Zero Dependencies / Blazing Fast**: Pure HTML5, CSS3, and modern vanilla JavaScript with smooth animations.
+- 💬 **Instant WhatsApp Booking**: Form sends formatted trip details directly to Chetan (+91 95031 52702).
+- 📞 **1-Click Call & Floating WhatsApp**: Instant customer contact on any device.
+- 📸 **Instagram Reels & Journey Showcase**: Integrated with Chetan's Instagram profile ([@chetan__7025](https://www.instagram.com/chetan__7025/)).
+- 🏞️ **Top Picnic & Tour Spots Driven by Chetan**:
+  - **Tamhini Ghat** (Monsoon waterfalls & misty mountain drive)
+  - **Konkan Coast** (Ganpatipule, Ratnagiri, Tarkarli, Dapoli)
+  - **Goa** (North & South Goa holiday trips)
+  - **Sinhagad, Rajgad & Torna** (Historic Sahyadri fort treks from Pune)
+  - **Lavasa City** (Scenic lakeside drive & hill station)
+  - **Kolhapur** (Shri Mahalakshmi & Jyotiba Temple pilgrimage)
+  - **Jejuri & Solapur** (Khandoba Temple & cultural tours)
+  - **Airport & Railway Station Transfers** (Mumbai CSMIA, Pune Airport, Mumbai CSMT, Pune Station 24/7 pick-up & drop)
+- 🛡️ **Transparent Pricing**: Fixed **₹16 / KM** rate with zero hidden costs.
 
 ---
 
@@ -31,4 +40,6 @@ A modern, fast, and 100% responsive travel website for **Chetan Yadav (SafarSath
 - **Driver & Owner:** Chetan Yadav (2 Years Experience)
 - **Base Location:** Kondhanpur Phata, Khed Shivapur, Pune
 - **Phone / WhatsApp:** +91 95031 52702
-- **Vehicle:** Maruti Suzuki Ertiga (7-Seater, AC, Spacious Luggage Space)
+- **Email:** Chetu1121@gmail.com
+- **Instagram:** [instagram.com/chetan__7025](https://www.instagram.com/chetan__7025/)
+- **Rate:** ₹16 / KM (7-Seater AC Maruti Ertiga)

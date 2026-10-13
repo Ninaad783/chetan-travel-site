@@ -6,15 +6,15 @@
     <meta name="theme-color" content="#FF6B35">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>SafarSathi Travels | Chetan Yadav – Ertiga Rides from Pune to Konkan | ₹14/km</title>
-    <meta name="description" content="Book comfortable Maruti Ertiga rides from Pune to Konkan at ₹14/km. Driver Chetan Yadav – safe, clean car, 2 years experience. Call +91 95031 52702">
-    <meta name="keywords" content="Ertiga rental Pune, Konkan trip from Pune, Chetan Yadav driver, car hire Pune, Ratnagiri trip, Ganpatipule trip, Tarkarli trip, affordable car travel Pune, SafarSathi">
+    <title>SafarSathi Travels | Chetan Yadav – Ertiga Rides from Pune | ₹16/km</title>
+    <meta name="description" content="Book comfortable Maruti Ertiga rides from Pune to Konkan, Goa, Tamhini Ghat, Sinhagad, Lavasa, Kolhapur at ₹16/km. Driver Chetan Yadav. Call +91 95031 52702 | Chetu1121@gmail.com">
+    <meta name="keywords" content="Ertiga rental Pune, Chetan Yadav driver, Tamhini Ghat trip, Konkan trip Pune, Goa trip Pune, Sinhagad Torna Rajgad car, Lavasa car ride, Kolhapur Jyotiba trip, Jejuri trip, Airport pickup drop Pune Mumbai, ₹16 per km Ertiga, SafarSathi">
 
     <!-- Open Graph for WhatsApp & Social Sharing -->
-    <meta property="og:title" content="SafarSathi Travels | Chetan Yadav – Pune to Konkan Ertiga Rides @ ₹14/km">
-    <meta property="og:description" content="Comfortable 7-Seater AC Ertiga trips from Pune to Konkan (Ganpatipule, Ratnagiri, Tarkarli, Dapoli). Driver: Chetan Yadav. Call/WhatsApp: +91 95031 52702">
+    <meta property="og:title" content="SafarSathi Travels | Chetan Yadav – Pune to Konkan, Goa & Scenic Trips @ ₹16/km">
+    <meta property="og:description" content="7-Seater AC Ertiga trips to Konkan, Goa, Tamhini Ghat, Lavasa, Sinhagad, Kolhapur & Airport Pick-Drop. Driver: Chetan Yadav (+91 95031 52702 | Chetu1121@gmail.com)">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1200&q=80">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&q=80">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1342,40 +1342,174 @@
             transform: translateY(-4px);
         }
 
-        /* ========== COUNTER ANIMATION ========== */
-        .counter-section {
-            background: var(--primary);
-            padding: 60px 0;
+        /* ========== INSTAGRAM SHOWCASE ========== */
+        .instagram-section {
+            background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+            padding: 90px 0;
+            position: relative;
         }
 
-        .counter-grid {
+        .insta-profile-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 24px 32px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(0,0,0,0.06);
+            flex-wrap: wrap;
+        }
+
+        .insta-profile-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .insta-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+            padding: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(221, 42, 123, 0.3);
+            flex-shrink: 0;
+        }
+
+        .insta-avatar-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: var(--secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.8rem;
+        }
+
+        .insta-details h3 {
+            font-size: 1.25rem;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 2px;
+        }
+
+        .insta-details .handle {
+            color: #DD2A7B;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .insta-details p {
+            color: var(--gray);
+            font-size: 0.85rem;
+            margin-top: 4px;
+        }
+
+        .btn-instagram {
+            background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);
+            color: var(--white) !important;
+            box-shadow: 0 8px 25px rgba(221, 42, 123, 0.35);
+        }
+
+        .btn-instagram:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(221, 42, 123, 0.5);
+        }
+
+        .insta-reels-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-            text-align: center;
+            gap: 24px;
         }
 
-        .counter-item {
-            color: var(--white);
-        }
-
-        .counter-item i {
-            font-size: 2rem;
-            margin-bottom: 12px;
-            color: var(--accent);
-        }
-
-        .counter-item .count {
-            font-size: 2.5rem;
-            font-weight: 800;
+        .insta-reel-card {
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            height: 330px;
+            background: #000;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: var(--transition);
             display: block;
+            text-decoration: none;
         }
 
-        .counter-item .count-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .insta-reel-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 35px rgba(0,0,0,0.2);
+        }
+
+        .insta-reel-bg {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-size: cover;
+            background-position: center;
+            transition: var(--transition);
+            opacity: 0.88;
+        }
+
+        .insta-reel-card:hover .insta-reel-bg {
+            transform: scale(1.08);
+            opacity: 1;
+        }
+
+        .insta-reel-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.1) 100%);
+            z-index: 1;
+        }
+
+        .insta-reel-badge {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            z-index: 2;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(8px);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .insta-reel-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            z-index: 2;
+            color: white;
+        }
+
+        .insta-reel-content h4 {
+            font-size: 1.05rem;
+            margin-bottom: 4px;
+            color: white;
+        }
+
+        .insta-reel-content span {
+            font-size: 0.8rem;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
         }
 
         /* ========== RESPONSIVE ========== */
@@ -1413,6 +1547,7 @@
             .routes-grid { grid-template-columns: repeat(2, 1fr); }
             .why-grid { grid-template-columns: repeat(2, 1fr); }
             .pricing-grid { grid-template-columns: repeat(2, 1fr); }
+            .insta-reels-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
             .price-card.popular { transform: scale(1); }
             .footer-grid { grid-template-columns: 1fr 1fr; }
         }
@@ -1460,6 +1595,10 @@
             .routes-grid { grid-template-columns: 1fr; gap: 20px; }
             .why-grid { grid-template-columns: 1fr; gap: 16px; }
             .pricing-grid { grid-template-columns: 1fr; gap: 24px; }
+            .insta-reels-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+            .insta-reel-card { height: 260px; }
+            .insta-profile-card { flex-direction: column; align-items: stretch; text-align: center; gap: 20px; padding: 24px 20px; }
+            .insta-profile-info { flex-direction: column; text-align: center; gap: 14px; }
             .car-specs { grid-template-columns: 1fr; }
 
             .route-card { height: 350px; }
@@ -1515,6 +1654,7 @@
             .car-big-icon { font-size: 3.5rem !important; }
             .booking-form { padding: 22px 18px; }
             .price-card { padding: 30px 18px; }
+            .insta-reels-grid { grid-template-columns: 1fr; }
             .car-features { gap: 8px; }
             .car-feature { padding: 10px 8px; }
             .spec-item { padding: 12px; }
@@ -1533,8 +1673,9 @@
             <div class="nav-links" id="navLinks">
                 <a href="#home">Home</a>
                 <a href="#services">Services</a>
-                <a href="#routes">Konkan Routes</a>
-                <a href="#pricing">Pricing (₹14/km)</a>
+                <a href="#routes">Top Spots</a>
+                <a href="#pricing">Pricing (₹16/km)</a>
+                <a href="#instagram"><i class="fab fa-instagram"></i> Reels</a>
                 <a href="#car">Our Car</a>
                 <a href="#booking" class="nav-cta"><i class="fas fa-phone"></i> Book Now</a>
             </div>
@@ -1554,12 +1695,12 @@
             <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
                 <h1>
                     Comfortable Ertiga Rides to<br>
-                    <span class="highlight">Konkan & All Maharashtra</span>
+                    <span class="highlight">Konkan, Goa & Picnic Spots</span>
                 </h1>
                 <p>
-                    Hi, I'm <strong>Chetan Yadav</strong> – your trusted driver from Pune. 
-                    Travel in my spacious 7-seater Maruti Ertiga at just <strong>₹14/km</strong>. 
-                    Safe, clean, and comfortable trips to Konkan and beyond.
+                    Hi, I'm <strong>Chetan Yadav</strong> – your trusted driver from Kondhanpur Phata, Khed Shivapur, Pune. 
+                    Travel in my spacious 7-seater Maruti Ertiga at just <strong>₹16/km</strong>. 
+                    Safe, clean, and comfortable trips to Konkan, Goa, Tamhini Ghat, Lavasa, Forts, Kolhapur & Airport drops.
                 </p>
                 <div class="hero-buttons">
                     <a href="tel:+919503152702" class="btn btn-primary">
@@ -1583,7 +1724,7 @@
                         <i class="fas fa-car-side"></i>
                     </div>
                     <h3>Maruti Suzuki Ertiga</h3>
-                    <p>Driver: <strong>Chetan Yadav</strong> • ₹14 / KM</p>
+                    <p>Driver: <strong>Chetan Yadav</strong> • ₹16 / KM</p>
                     <div class="car-features">
                         <div class="car-feature">
                             <i class="fas fa-users"></i>
@@ -1611,134 +1752,264 @@
     <section class="section services" id="services">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <span class="badge">What We Offer</span>
+                <span class="badge">What Chetan Offers</span>
                 <h2>Our Travel Services</h2>
-                <p>From weekend getaways to long trips, we've got you covered</p>
+                <p>Spacious 7-seater Maruti Ertiga with AC, driven by Chetan Yadav at just ₹16/km</p>
             </div>
             <div class="services-grid">
                 <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
-                    <h3>Konkan Trips</h3>
-                    <p>Comfortable trips from Pune to all Konkan destinations – Ratnagiri, Ganpatipule, Dapoli, Tarkarli, Alibaug and more at just ₹14/km.</p>
+                    <div class="service-icon"><i class="fas fa-umbrella-beach"></i></div>
+                    <h3>Konkan & Goa Holidays</h3>
+                    <p>Comfortable beach trips to Ratnagiri, Ganpatipule, Tarkarli, Dapoli & Goa. Safe driving on coastal ghats with family comfort.</p>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-icon"><i class="fas fa-hiking"></i></div>
-                    <h3>Weekend Getaways</h3>
-                    <p>Plan a quick weekend trip with family or friends to Konkan beaches and scenic spots. Pickup from Pune, door-to-door service.</p>
+                    <div class="service-icon"><i class="fas fa-cloud-showers-heavy"></i></div>
+                    <h3>Tamhini Ghat & Lavasa</h3>
+                    <p>Monsoon drives, waterfalls, and scenic hill picnics to Tamhini Ghat and Lavasa City. Stop wherever you want for photos & tea!</p>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-icon"><i class="fas fa-users"></i></div>
-                    <h3>Family Trips</h3>
-                    <p>Spacious 7-seater Ertiga perfect for family outings. Comfortable seats, AC, and enough luggage space for everyone.</p>
+                    <div class="service-icon"><i class="fas fa-mountain"></i></div>
+                    <h3>Sinhagad, Rajgad & Torna</h3>
+                    <p>Weekend Sahyadri fort treks from Pune. Doorstep pick-up, safe drop at trekking base points, and return ride after your trek.</p>
                 </div>
                 <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="service-icon"><i class="fas fa-road"></i></div>
-                    <h3>Outstation Rides</h3>
-                    <p>Going somewhere in Maharashtra? Book Chetan's Ertiga for a smooth, safe ride at affordable ₹14 per km rates.</p>
+                    <div class="service-icon"><i class="fas fa-om"></i></div>
+                    <h3>Pilgrimage Tours</h3>
+                    <p>Holy darshan tours to Kolhapur Mahalakshmi & Jyotiba, Jejuri Khandoba, and Solapur. Devotional comfort for senior citizens.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-plane-departure"></i></div>
+                    <h3>Airport Pick-up & Drop</h3>
+                    <p>24/7 on-time pick-up and drop for Mumbai International Airport (CSMIA) & Pune Airport. Never miss a flight with Chetan!</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-train"></i></div>
+                    <h3>Railway Station Transfers</h3>
+                    <p>Direct pick-up and drop for Pune Station, Mumbai CSMT, Dadar & Kurla LTT. Ample luggage space in the Ertiga boot.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== POPULAR ROUTES ========== -->
+    <!-- ========== POPULAR ROUTES & PICNIC SPOTS ========== -->
     <section class="section" id="routes">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <span class="badge">Konkan Destinations</span>
-                <h2>Popular Konkan Routes from Pune</h2>
-                <p>All routes at just ₹14 per km – pickup from Kondhanpur Phata, Khed Shivapur, Pune</p>
+                <span class="badge">Top Picnic & Tour Spots</span>
+                <h2>Popular Routes Driven by Chetan</h2>
+                <p>Pick-up from Kondhanpur Phata, Khed Shivapur, Pune • Affordable ₹16 per KM</p>
             </div>
             <div class="routes-grid">
+                <!-- 1. Tamhini Ghat -->
                 <div class="route-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=600&q=80')"></div>
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80')"></div>
                     <div class="route-overlay"></div>
                     <div class="route-content">
-                        <span class="route-tag">🏖 Beach & Temple</span>
-                        <h3>Ganpatipule</h3>
+                        <span class="route-tag">🌧️ Waterfalls & Ghat</span>
+                        <h3>Tamhini Ghat</h3>
+                        <div class="route-info">
+                            <span><i class="fas fa-road"></i> ~75 km</span>
+                            <span><i class="fas fa-clock"></i> 2-3 hrs</span>
+                        </div>
+                        <div class="route-price">
+                            Scenic Tour <small>@ ₹16/km</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Konkan -->
+                <div class="route-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=800&q=80')"></div>
+                    <div class="route-overlay"></div>
+                    <div class="route-content">
+                        <span class="route-tag">🏖️ Beach & Temple</span>
+                        <h3>Konkan (Ganpatipule)</h3>
                         <div class="route-info">
                             <span><i class="fas fa-road"></i> ~330 km</span>
                             <span><i class="fas fa-clock"></i> 6-7 hrs</span>
                         </div>
                         <div class="route-price">
-                            ≈ ₹4,620 <small>one way @ ₹14/km</small>
+                            ≈ ₹5,280 <small>one way @ ₹16/km</small>
                         </div>
                     </div>
                 </div>
-                <div class="route-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80')"></div>
-                    <div class="route-overlay"></div>
-                    <div class="route-content">
-                        <span class="route-tag">🏖 Beach</span>
-                        <h3>Ratnagiri</h3>
-                        <div class="route-info">
-                            <span><i class="fas fa-road"></i> ~350 km</span>
-                            <span><i class="fas fa-clock"></i> 6-7 hrs</span>
-                        </div>
-                        <div class="route-price">
-                            ≈ ₹4,900 <small>one way @ ₹14/km</small>
-                        </div>
-                    </div>
-                </div>
+
+                <!-- 3. Goa -->
                 <div class="route-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=80')"></div>
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80')"></div>
                     <div class="route-overlay"></div>
                     <div class="route-content">
-                        <span class="route-tag">🐠 Beach & Scuba</span>
-                        <h3>Tarkarli / Malvan</h3>
+                        <span class="route-tag">🌴 Beach Holiday</span>
+                        <h3>Goa (North & South)</h3>
                         <div class="route-info">
-                            <span><i class="fas fa-road"></i> ~470 km</span>
+                            <span><i class="fas fa-road"></i> ~450 km</span>
                             <span><i class="fas fa-clock"></i> 9-10 hrs</span>
                         </div>
                         <div class="route-price">
-                            ≈ ₹6,580 <small>one way @ ₹14/km</small>
+                            ≈ ₹7,200 <small>one way @ ₹16/km</small>
                         </div>
                     </div>
                 </div>
+
+                <!-- 4. Sinhagad, Rajgad, Torna -->
                 <div class="route-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80')"></div>
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1609137144822-10821c97a816?w=800&q=80')"></div>
                     <div class="route-overlay"></div>
                     <div class="route-content">
-                        <span class="route-tag">🌊 Beach & Nature</span>
-                        <h3>Dapoli</h3>
+                        <span class="route-tag">🚩 Historic Forts & Treks</span>
+                        <h3>Sinhagad, Rajgad & Torna</h3>
                         <div class="route-info">
-                            <span><i class="fas fa-road"></i> ~210 km</span>
+                            <span><i class="fas fa-road"></i> ~30 - 55 km</span>
+                            <span><i class="fas fa-clock"></i> 1-2 hrs</span>
+                        </div>
+                        <div class="route-price">
+                            Trekking Rides <small>@ ₹16/km</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Lavasa City -->
+                <div class="route-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80')"></div>
+                    <div class="route-overlay"></div>
+                    <div class="route-content">
+                        <span class="route-tag">🏞️ Lakeside Drive</span>
+                        <h3>Lavasa City</h3>
+                        <div class="route-info">
+                            <span><i class="fas fa-road"></i> ~65 km</span>
+                            <span><i class="fas fa-clock"></i> 2 hrs</span>
+                        </div>
+                        <div class="route-price">
+                            Day Outing <small>@ ₹16/km</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Kolhapur (Jyotiba & Mahalakshmi) -->
+                <div class="route-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1600100397608-f010f443b7cf?w=800&q=80')"></div>
+                    <div class="route-overlay"></div>
+                    <div class="route-content">
+                        <span class="route-tag">🛕 Holy Darshan</span>
+                        <h3>Kolhapur (Jyotiba & Mahalakshmi)</h3>
+                        <div class="route-info">
+                            <span><i class="fas fa-road"></i> ~235 km</span>
                             <span><i class="fas fa-clock"></i> 4-5 hrs</span>
                         </div>
                         <div class="route-price">
-                            ≈ ₹2,940 <small>one way @ ₹14/km</small>
+                            ≈ ₹3,760 <small>one way @ ₹16/km</small>
                         </div>
                     </div>
                 </div>
+
+                <!-- 7. Jejuri & Solapur -->
+                <div class="route-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80')"></div>
+                    <div class="route-overlay"></div>
+                    <div class="route-content">
+                        <span class="route-tag">🟡 Khandoba Darshan</span>
+                        <h3>Jejuri & Solapur</h3>
+                        <div class="route-info">
+                            <span><i class="fas fa-road"></i> ~45 / 250 km</span>
+                            <span><i class="fas fa-clock"></i> 1 - 5 hrs</span>
+                        </div>
+                        <div class="route-price">
+                            Temple Special <small>@ ₹16/km</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Airport & Station Pick & Drop -->
                 <div class="route-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=600&q=80')"></div>
+                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80')"></div>
                     <div class="route-overlay"></div>
                     <div class="route-content">
-                        <span class="route-tag">🏝 Beach & Fort</span>
-                        <h3>Alibaug</h3>
+                        <span class="route-tag">✈️ 24/7 Pick & Drop</span>
+                        <h3>Airport & Railway Station</h3>
                         <div class="route-info">
-                            <span><i class="fas fa-road"></i> ~145 km</span>
-                            <span><i class="fas fa-clock"></i> 3-4 hrs</span>
+                            <span><i class="fas fa-road"></i> Mumbai & Pune</span>
+                            <span><i class="fas fa-clock"></i> On Time</span>
                         </div>
                         <div class="route-price">
-                            ≈ ₹2,030 <small>one way @ ₹14/km</small>
+                            Doorstep Pickup <small>@ ₹16/km</small>
                         </div>
                     </div>
                 </div>
-                <div class="route-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="route-bg" style="background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&q=80')"></div>
-                    <div class="route-overlay"></div>
-                    <div class="route-content">
-                        <span class="route-tag">🛕 Temple & Beach</span>
-                        <h3>Harihareshwar</h3>
-                        <div class="route-info">
-                            <span><i class="fas fa-road"></i> ~190 km</span>
-                            <span><i class="fas fa-clock"></i> 4 hrs</span>
-                        </div>
-                        <div class="route-price">
-                            ≈ ₹2,660 <small>one way @ ₹14/km</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== INSTAGRAM SHOWCASE & REELS ========== -->
+    <section class="section instagram-section" id="instagram">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="badge" style="background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); color: white;"><i class="fab fa-instagram"></i> Instagram Reels</span>
+                <h2>Watch Chetan's Journeys & Reels</h2>
+                <p>Follow Chetan on Instagram for road trip reels, scenic drives, and real journey glimpses!</p>
+            </div>
+
+            <!-- Profile Badge Card -->
+            <div class="insta-profile-card" data-aos="fade-up">
+                <div class="insta-profile-info">
+                    <div class="insta-avatar">
+                        <div class="insta-avatar-inner">
+                            <i class="fas fa-user"></i>
                         </div>
                     </div>
+                    <div class="insta-details">
+                        <h3>Chetan Yadav <i class="fas fa-check-circle" style="color: #2563EB; font-size: 1rem;"></i></h3>
+                        <span class="handle">@chetan__7025</span>
+                        <p>🚗 SafarSathi Travels • Ertiga 7-Seater • Pune, Konkan, Ghats & Beyond</p>
+                    </div>
                 </div>
+                <div>
+                    <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
+                        <i class="fab fa-instagram"></i> Follow on Instagram
+                    </a>
+                </div>
+            </div>
+
+            <!-- Reels Showcase Grid -->
+            <div class="insta-reels-grid">
+                <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" class="insta-reel-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="insta-reel-bg" style="background-image: url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600&q=80')"></div>
+                    <div class="insta-reel-overlay"></div>
+                    <div class="insta-reel-badge"><i class="fas fa-play"></i> Reel</div>
+                    <div class="insta-reel-content">
+                        <h4>Tamhini Ghat Drive 🌧️</h4>
+                        <span><i class="fab fa-instagram"></i> Watch on Instagram</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" class="insta-reel-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="insta-reel-bg" style="background-image: url('https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=600&q=80')"></div>
+                    <div class="insta-reel-overlay"></div>
+                    <div class="insta-reel-badge"><i class="fas fa-play"></i> Reel</div>
+                    <div class="insta-reel-content">
+                        <h4>Konkan Coastal Route 🏖️</h4>
+                        <span><i class="fab fa-instagram"></i> Watch on Instagram</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" class="insta-reel-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="insta-reel-bg" style="background-image: url('https://images.unsplash.com/photo-1609137144822-10821c97a816?w=600&q=80')"></div>
+                    <div class="insta-reel-overlay"></div>
+                    <div class="insta-reel-badge"><i class="fas fa-play"></i> Reel</div>
+                    <div class="insta-reel-content">
+                        <h4>Sinhagad & Fort Treks 🚩</h4>
+                        <span><i class="fab fa-instagram"></i> Watch on Instagram</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" class="insta-reel-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="insta-reel-bg" style="background-image: url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80')"></div>
+                    <div class="insta-reel-overlay"></div>
+                    <div class="insta-reel-badge"><i class="fas fa-play"></i> Reel</div>
+                    <div class="insta-reel-content">
+                        <h4>Goa Road Journey 🌴</h4>
+                        <span><i class="fab fa-instagram"></i> Watch on Instagram</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -1761,8 +2032,8 @@
                 </div>
                 <div class="why-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon-circle"><i class="fas fa-tags"></i></div>
-                    <h4>Just ₹14/km</h4>
-                    <p>Simple, transparent pricing at ₹14 per km. No hidden charges, no surprises.</p>
+                    <h4>Just ₹16/km</h4>
+                    <p>Simple, transparent pricing at ₹16 per km. No hidden charges, no surprises.</p>
                 </div>
                 <div class="why-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon-circle"><i class="fas fa-car-alt"></i></div>
@@ -1784,7 +2055,7 @@
             <div class="car-info" data-aos="fade-right">
                 <span class="badge" style="display:inline-block; background:linear-gradient(135deg, var(--primary), var(--accent)); color:white; padding:6px 20px; border-radius:50px; font-size:0.85rem; font-weight:600; margin-bottom:16px; letter-spacing:1px; text-transform:uppercase;">Our Vehicle</span>
                 <h2>Chetan's Maruti Suzuki Ertiga</h2>
-                <p>Chetan keeps his Ertiga clean and well-maintained for every trip. Spacious 7-seater with powerful AC – perfect for your Konkan trips from Pune. Rate: just ₹14 per km.</p>
+                <p>Chetan keeps his Ertiga clean and well-maintained for every trip. Spacious 7-seater with powerful AC – perfect for your Konkan, Goa & outstation trips from Pune. Rate: just ₹16 per km.</p>
                 <div class="car-specs">
                     <div class="spec-item">
                         <i class="fas fa-users"></i>
@@ -1835,7 +2106,7 @@
             </div>
             <div class="car-image-wrapper" data-aos="fade-left">
                 <div class="car-image-card">
-                    <span class="car-badge">₹14 / KM</span>
+                    <span class="car-badge">₹16 / KM</span>
                     <i class="fas fa-car-side car-big-icon"></i>
                     <h3>Maruti Suzuki Ertiga</h3>
                     <p style="margin-bottom: 8px;"><strong>Driver:</strong> Chetan Yadav (2 Years Exp)</p>
@@ -1855,8 +2126,8 @@
         <div class="container">
             <div class="section-header" data-aos="fade-up">
                 <span class="badge">Simple Pricing</span>
-                <h2>Transparent Rates – Just ₹14 / KM</h2>
-                <p>No hidden charges, straightforward per-kilometer pricing for all your Konkan and outstation trips</p>
+                <h2>Transparent Rates – Just ₹16 / KM</h2>
+                <p>No hidden charges, straightforward per-kilometer pricing for all your Konkan, picnic, and outstation trips</p>
             </div>
             <div class="pricing-grid">
                 <div class="price-card" data-aos="fade-up" data-aos-delay="0">
@@ -1864,7 +2135,7 @@
                     <h3>Standard Rate</h3>
                     <p class="price-desc">Any Outstation Destination</p>
                     <div class="price-tag">
-                        <span>₹14</span> / km
+                        <span>₹16</span> / km
                     </div>
                     <ul class="price-features">
                         <li><i class="fas fa-check-circle"></i> Clean 7-Seater Maruti Ertiga</li>
@@ -1878,12 +2149,12 @@
                     </a>
                 </div>
                 <div class="price-card popular" data-aos="fade-up" data-aos-delay="100">
-                    <div class="popular-badge">KONKAN SPECIAL</div>
+                    <div class="popular-badge">POPULAR</div>
                     <div class="price-icon"><i class="fas fa-umbrella-beach"></i></div>
-                    <h3>Konkan Trip</h3>
-                    <p class="price-desc">Ganpatipule, Ratnagiri, Dapoli, Tarkarli</p>
+                    <h3>Konkan & Goa Trip</h3>
+                    <p class="price-desc">Ganpatipule, Ratnagiri, Tarkarli, Goa</p>
                     <div class="price-tag">
-                        <span>₹14</span> / km
+                        <span>₹16</span> / km
                     </div>
                     <ul class="price-features">
                         <li><i class="fas fa-check-circle"></i> Perfect for beach holidays</li>
@@ -1901,12 +2172,12 @@
                     <h3>Multi-Day Tours</h3>
                     <p class="price-desc">2 to 5+ Days Extended Travel</p>
                     <div class="price-tag">
-                        <span>₹14</span> / km
+                        <span>₹16</span> / km
                     </div>
                     <ul class="price-features">
                         <li><i class="fas fa-check-circle"></i> Dedicated car & driver for all days</li>
                         <li><i class="fas fa-check-circle"></i> Flexible schedule per your plan</li>
-                        <li><i class="fas fa-check-circle"></i> Ideal for family & temple tours</li>
+                        <li><i class="fas fa-check-circle"></i> Ideal for family, temple & trek tours</li>
                         <li><i class="fas fa-check-circle"></i> Nominal driver day allowance</li>
                         <li><i class="fas fa-check-circle"></i> Transparent kilometer calculation</li>
                     </ul>
@@ -1929,7 +2200,7 @@
             <div class="booking-grid">
                 <div class="booking-form" data-aos="fade-right">
                     <h3><i class="fas fa-calendar-check"></i> Quick Booking Enquiry</h3>
-                    <p style="font-size: 0.9rem; color: var(--gray); margin-bottom: 20px;">Book Chetan's 7-seater Ertiga at ₹14/km</p>
+                    <p style="font-size: 0.9rem; color: var(--gray); margin-bottom: 20px;">Book Chetan's 7-seater Ertiga at ₹16/km</p>
                     <form id="bookingForm">
                         <div class="form-row">
                             <div class="form-group">
@@ -1948,7 +2219,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="destination">Destination</label>
-                                <input type="text" id="destination" placeholder="e.g. Ganpatipule, Ratnagiri, etc." required>
+                                <input type="text" id="destination" placeholder="e.g. Konkan, Tamhini Ghat, Goa, Sinhagad, Kolhapur..." required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -1973,7 +2244,7 @@
                                 <option value="round-trip">Round Trip</option>
                                 <option value="multi-day">Multi-Day Trip</option>
                                 <option value="local">Local / City Ride</option>
-                                <option value="airport">Airport Transfer</option>
+                                <option value="airport">Airport / Station Transfer</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -1987,7 +2258,7 @@
                 </div>
                 <div class="contact-info-side" data-aos="fade-left">
                     <h3>Contact Chetan Yadav</h3>
-                    <p>Ready to plan your Konkan tour or outstation ride? Get in touch directly with Chetan for bookings and custom route quotes.</p>
+                    <p>Ready to plan your trip or outstation ride? Get in touch directly with Chetan for bookings and custom route quotes.</p>
                     
                     <div class="contact-item">
                         <div class="icon-box"><i class="fas fa-user-check"></i></div>
@@ -2011,6 +2282,13 @@
                         </div>
                     </div>
                     <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:Chetu1121@gmail.com">Chetu1121@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
                         <div class="icon-box"><i class="fas fa-map-marked-alt"></i></div>
                         <div>
                             <h4>Base Location</h4>
@@ -2021,13 +2299,15 @@
                         <div class="icon-box"><i class="fas fa-tag"></i></div>
                         <div>
                             <h4>Trip Rate</h4>
-                            <p><strong>₹14 / km</strong> (7-Seater AC Maruti Ertiga)</p>
+                            <p><strong>₹16 / km</strong> (7-Seater AC Maruti Ertiga)</p>
                         </div>
                     </div>
 
                     <div class="social-links">
-                        <a href="https://wa.me/919503152702" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/919503152702" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                         <a href="tel:+919503152702" title="Call"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:Chetu1121@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer" title="Instagram @chetan__7025"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -2043,10 +2323,12 @@
                         <i class="fas fa-route"></i>
                         Safar<span>Sathi</span>
                     </a>
-                    <p>Comfortable, trustworthy Ertiga rides by <strong>Chetan Yadav</strong>. Based at Kondhanpur Phata, Khed Shivapur, Pune. Specializing in Konkan trips at ₹14/km.</p>
+                    <p>Comfortable, trustworthy Ertiga rides by <strong>Chetan Yadav</strong>. Based at Kondhanpur Phata, Khed Shivapur, Pune. Specializing in Konkan, Goa, Tamhini Ghat, Forts & outstation trips at ₹16/km.</p>
                     <div class="social-links">
-                        <a href="https://wa.me/919503152702?text=Hi%20Chetan!%20I%20want%20to%20enquire%20about%20a%20trip." target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/919503152702?text=Hi%20Chetan!%20I%20want%20to%20enquire%20about%20a%20trip." target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
                         <a href="tel:+919503152702"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:Chetu1121@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div>
@@ -2054,21 +2336,24 @@
                     <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#routes">Konkan Routes</a></li>
+                        <li><a href="#routes">Top Spots</a></li>
+                        <li><a href="#instagram"><i class="fab fa-instagram"></i> Instagram Reels</a></li>
                         <li><a href="#car">Our Car</a></li>
-                        <li><a href="#pricing">Pricing (₹14/km)</a></li>
+                        <li><a href="#pricing">Pricing (₹16/km)</a></li>
                         <li><a href="#booking">Book Now</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4>Konkan Routes</h4>
+                    <h4>Top Spots</h4>
                     <ul class="footer-links">
-                        <li><a href="#routes">Ganpatipule</a></li>
-                        <li><a href="#routes">Ratnagiri</a></li>
-                        <li><a href="#routes">Tarkarli / Malvan</a></li>
-                        <li><a href="#routes">Dapoli</a></li>
-                        <li><a href="#routes">Alibaug</a></li>
-                        <li><a href="#routes">Harihareshwar</a></li>
+                        <li><a href="#routes">Tamhini Ghat</a></li>
+                        <li><a href="#routes">Konkan (Ganpatipule)</a></li>
+                        <li><a href="#routes">Goa Holiday</a></li>
+                        <li><a href="#routes">Sinhagad, Rajgad, Torna</a></li>
+                        <li><a href="#routes">Lavasa City</a></li>
+                        <li><a href="#routes">Kolhapur (Jyotiba & Mahalakshmi)</a></li>
+                        <li><a href="#routes">Jejuri & Solapur</a></li>
+                        <li><a href="#routes">Airport / Station Drop</a></li>
                     </ul>
                 </div>
                 <div>
@@ -2076,8 +2361,10 @@
                     <ul class="footer-links">
                         <li><a href="tel:+919503152702"><i class="fas fa-phone-alt"></i> +91 95031 52702</a></li>
                         <li><a href="https://wa.me/919503152702?text=Hi%20Chetan!%20I%20want%20to%20book%20a%20trip." target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp Chat</a></li>
+                        <li><a href="mailto:Chetu1121@gmail.com"><i class="fas fa-envelope"></i> Chetu1121@gmail.com</a></li>
+                        <li><a href="https://www.instagram.com/chetan__7025/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> @chetan__7025</a></li>
                         <li><i class="fas fa-map-marker-alt"></i> Kondhanpur Phata, Khed Shivapur, Pune</li>
-                        <li><i class="fas fa-tag"></i> ₹14 / KM Fixed Rate</li>
+                        <li><i class="fas fa-tag"></i> ₹16 / KM Fixed Rate</li>
                     </ul>
                 </div>
             </div>
